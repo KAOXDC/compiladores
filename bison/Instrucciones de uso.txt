@@ -1,0 +1,24 @@
+Instrucciones de uso
+
+ANTES DE EJECUTAR
+4 comandos a ejecutar en el terminal de linux (requiere flex y Bison instalado)
+(nos ubicamos en la carpeta o directorio donde tenemos los archivos) 
+
+Como Instalar
+	Flex	instalar en Linux ( sudo apt-get install flex )
+	Bison	instalar en Linux ( sudo apt-get install bison)
+________________________________________________________________________
+
+COMANDOS EN EL SIGUIENTE ORDEN
+
+bison -y -d fuente.y (Presionamos Enter)
+flex fuente.l (Presionamos Enter)
+gcc y.tab.c lex.yy.c -o ejecutable -lfl (Presionamos Enter)
+./ejecutable < muestra.txt >DatosFinal.txt (Presionamos Enter)
+
+los datos estaran en DatosFinal.txt
+
+
+
+
+
