@@ -1,0 +1,10 @@
+ANTES DE EJECUTAR
+3 comandos a ejecutar en el terminal de linux (requiere flex instalado)
+(nos ubicamos en la carpeta o directorio donde tenemos los archivos) 
+
+COMANDOS
+flex -o test.c test2.lex  (Presionamos Enter)
+gcc test.c  (Presionamos Enter)
+./a.out < wire.txt > muestra.txt  (Presionamos Enter)
+
+
